@@ -14,6 +14,7 @@ module.exports = {
         assetModuleFilename: 'assets/images/[name][hash][ext][query]', //Esto da la dirección de img y fuentes
         clean: true,
     },
+    mode: 'production',
     resolve: {
         extensions: ['.js'],
         alias: {
